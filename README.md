@@ -16,5 +16,8 @@ Usage:
 
 2. Start a few instances of the example, as shown above.
 
-3. Start a ZK client and create work units under /work-units/. e.g. "create /work-units/#rpscala {}". zNode name = the keyword to search for on Twitter.
+3. Start a ZK client and create work units under /work-units/. e.g. "create /work-units/#rpscala {}". 
+    * zNode name = the keyword to search for on Twitter.
+
+4. Start and stop a few instances of the example. Wait a few minutes and watch the nodes magically rebalance their work.
 
